@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Message from './Message';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Welcome from './Welcome';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Welcome name1='mohammad' family1='mirzaee' name2='ali' family2='naseri'/>
+    <Message message="React is my dearm" />
   </React.StrictMode>,
   document.getElementById('root')
 );
